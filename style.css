@@ -67,6 +67,13 @@
 .ex-7-img:hover {
   filter: grayscale(1) blur(5px);
 }
+.ex-8-img {
+  transition: all 1s;
+}
+.ex-8-img:hover {
+  filter: blur(1px) hue-rotate(50deg);
+  border-radius: 15px;
+}
 
 .ex-9-img {
   margin: 50px 100px;
